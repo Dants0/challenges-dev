@@ -34,10 +34,13 @@ header{
     flex-direction: column;
     text-align: center;
     align-items: center;
-    justify-content:start;
-    width: 50px;
-    height: 50px;
     margin: auto;
+
+    position: absolute;
+    width: 25%;
+    height: 25px;
+    left: 672px;
+    top: 748px;
 }
 
 
@@ -49,14 +52,36 @@ header{
     height: 25vh;
 }
 
-.wallpaperForma{
-    display: flex;
-    justify-content:flex-end;
+.wallpaperForma-1{
+    position: absolute;
+    width: 519.83px;
+    height: 489.39px;
+    left: 1323px;
+    top: 234px;
     z-index: -1;
-    width: auto;
-    margin: 0px 0px 0px 0px;
-
+    
+    transform: rotate(9.27deg);
 }
+
+.wallpaperForma-2{
+    position: absolute;
+    width: 479.39px;
+    height: 552.14px;
+    left: -143px;
+    top: 267px;
+
+    transform: rotate(-5.99deg);
+    z-index: -1;
+}
+
+.cup{
+    position: absolute;
+    width: 182px;
+    height: 305px;
+    left: 1534px;   
+    top: 283px;
+}
+
 
 footer{
     display: flex;
