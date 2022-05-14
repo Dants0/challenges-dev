@@ -1,12 +1,99 @@
-shop
-My Account
-Search
-WOMEN
-MEN
-SHOES
-BRAND
-BRAND SWEATSHIRT
-$1000
-PREV
-NEXT
-ADD TO CART
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop Ecommerce</title>
+    <script src="https://unpkg.com/phosphor-icons"></script>
+    <link rel="stylesheet" href="./src/css/global.css">
+</head>
+<body>
+    <header>
+        <h1 class="logo">
+            Shop
+        </h1>
+        <nav class="navbar-pages">
+            <ul>
+                <li>
+                    MY ACCOUNT
+                </li>
+                <li>
+                    SEARCH
+                </li>
+                <li>
+                    <i class="ph-shopping-bag"></i>
+                </li>
+                <li>
+                    <i class="ph-list"></i>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <div class="container-1">
+            <nav class="clouthes-pages">
+                <ul>
+                    <li>
+                        WOMAN
+                    </li>
+                    <li>
+                        MEN
+                    </li>
+                    <li>
+                        SHOES
+                    </li>
+                    <li>
+                        BRAND
+                    </li>
+                </ul>
+            </nav>
+            
+            <nav class="social-links">
+                <ul>
+                    <li>
+                        <i class="ph-instagram-logo"></i>
+                    </li>
+                    <li>
+                        <i class="ph-twitter-logo"></i>
+                    </li>
+                    <li>
+                        <i class="ph-facebook-logo"></i>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </section>
+
+    <section class="container-2">
+        <h2>BRAND SWEATSHIRT</h2>
+        <p>$1000</p>
+        <div class="box-button-1-container-2">
+            <i class="ph-arrow-left"></i><button class="button-prev">PREV</button>
+        </div>
+    </section>
+
+    <section class="container-3">
+        <div class="box-button-2-container-3">
+            <button class="button-next">NEXT</button><i class="ph-arrow-right"></i>
+        </div>
+
+        <input type="text" placeholder="Selecione o seu tamanho" list="datalist" class="select-datalist"/>
+        <datalist id="datalist">
+            <option value="S">S</option>
+           <option value="M">M</option>
+            <option value="L">L</option>
+        </datalist>
+
+        <div class="btn-logic-system">
+            <button class="button-sub-item">-</button><span id="itemCount">2</span><button class="button-add-item">+</button>
+        </div>
+
+        <div class="btn-cart">
+            <button class="cart">ADD TO CART</button>
+        </div>
+    </section>
+
+</body>
+</html>
