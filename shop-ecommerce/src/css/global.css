@@ -19,4 +19,20 @@ body{
     background-attachment: fixed;
 }
 
+header{
+    display: flex;
+    width: 100vh;
+    height: 25vh;
+}
+
+li{
+    list-style-type: none;
+}
+
+h1{
+    display: flex;
+    
+}
+
+
 
