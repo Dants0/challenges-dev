@@ -20,20 +20,20 @@
                         <a href="" class="myAccount">MY ACCOUNT</a> 
                     </li>
                     <li class="navbar-pages-list">
-                        <input type="search" placeholder="Search product" class="inputSearchNavbar">
+                        <input type="search" placeholder="Search product" id="inputSearchNavbar">
                     </li>
                     <li class="navbar-pages-list">
-                        <a href=""><img src="./assets/shop.svg" alt="Bolsa de compras" class="bagShop"></a> 
+                        <a href=""><img src="./assets/shop.svg" alt="Bolsa de compras" id="bagShop"></a> 
                     </li>
                     <li class="navbar-pages-list">
-                        <a href=""><img src="./assets/list.svg" alt="Menu" class="listMenu"></a>
+                        <a href=""><img src="./assets/list.svg" alt="Menu" id="listMenu"></a>
                     </li>
                 </ul>
             </nav>
         </div>
     </header>
 
-    <section>
+    <section class="box-1">
         <div class="container-1">
             <nav>
                 <ul>
@@ -66,35 +66,40 @@
             </ul>
         </div>
     </section>
-
-    <!-- <section class="container-2">
-        <h2>BRAND SWEATSHIRT</h2>
-        <p>$1000</p>
-        <div class="box-button-1-container-2">
-            <i class="ph-arrow-left"></i><button class="button-prev">PREV</button>
+    
+    <section class="box-2">
+        <div class="container-2">
+            <h2>BRAND <br> SWEATSHIRT</h2>
+            <p>$1000</p>
+                <div class="box-button-1-container-2">
+                    <i class="ph-arrow-left"></i><button id="button-prev">PREV</button>
+                </div>
+        </div>
+        
+        <div class="container-3">
+            <div class="box-button-2-container-3">
+                <button id="button-next">NEXT</button><i class="ph-arrow-right"></i>
+            </div>
+            <div class="box-send-2-container-3">
+            
+                <input type="text" placeholder="Tamanho" list="datalist" id="select-datalist"/>
+                <datalist id="datalist">
+                    <option value="S">S</option>
+                    <option value="M">M</option>
+                    <option value="L">L</option>
+                </datalist>
+                
+                <div class="btn-logic-system">
+                    <button id="button-sub-item">-</button><span id="itemCount"></span><button id="button-add-item">+</button>
+                </div>
+                
+                <div class="btn-cart">
+                    <button id="cart">ADD TO CART</button>
+                </div>
+            </div>
         </div>
     </section>
 
-    <section class="container-3">
-        <div class="box-button-2-container-3">
-            <button class="button-next">NEXT</button><i class="ph-arrow-right"></i>
-        </div>
-
-        <input type="text" placeholder="Selecione o seu tamanho" list="datalist" class="select-datalist"/>
-        <datalist id="datalist">
-            <option value="S">S</option>
-           <option value="M">M</option>
-            <option value="L">L</option>
-        </datalist>
-
-        <div class="btn-logic-system">
-            <button class="button-sub-item">-</button><span id="itemCount">2</span><button class="button-add-item">+</button>
-        </div>
-
-        <div class="btn-cart">
-            <button class="cart">ADD TO CART</button>
-        </div>
-    </section> -->
-
+    <script src="./src/js/app.js"></script>
 </body>
 </html>
