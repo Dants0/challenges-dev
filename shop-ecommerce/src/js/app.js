@@ -45,5 +45,15 @@ const subToCart = () =>{
     }
 }
 
+const nextClouts = () =>{
+    alert('redirecionando prox imagem');
+}
+
+const prevClouts = () =>{
+    alert('redirecionando imagem anterior');
+}
+
 moreBuyBtn.addEventListener('click', addToCart);
 minusBuyBtn.addEventListener('click', subToCart);
+nextBtn.addEventListener('click', nextClouts);
+prevBtn.addEventListener('click', prevClouts);
