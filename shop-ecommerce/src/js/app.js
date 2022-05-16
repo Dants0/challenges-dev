@@ -11,6 +11,7 @@ const menuList = document.getElementById('listMenu');
 
 buyBtn.disabled = true;
 
+buyBtn.addEventListener('click', buyProduct);
 
 //initialize
 var count=0;
@@ -19,10 +20,16 @@ countItemCart.innerHTML = count;
 
 function buyProduct(){
     checkCart();
+    checkList();
 }
 
 const checkCart = () =>{
-    console.log('botao ativo compra efetuada ' + count)
+    if(count>0){
+        alert('Quantidade: ' + count + ' Tamanho: ' + listSize.value);
+        console.log('Quantidade: ' + count + ' Tamanho: ' + listSize.value)
+    }else{
+        alert('Adicione item')
+    }
 }
 
 const addToCart = () =>{
@@ -32,17 +39,16 @@ const addToCart = () =>{
 }
 
 const subToCart = () =>{
-    if(countItemCart.innerHTML==='0'||countItemCart.innerHTML<'0'){
-        buyBtn.disabled=true;
-        console.log('botao desativado');
-    }
-    
     if(countItemCart.innerHTML>0){
         count--;
         countItemCart.innerHTML = count;
     }
 }
 
+const checkList = () =>{
+    listSize.value;
+}
+
+listSize.addEventListener("change", checkList);
 moreBuyBtn.addEventListener('click', addToCart);
 minusBuyBtn.addEventListener('click', subToCart);
-buyBtn.addEventListener('click', checkCart);
