@@ -16,6 +16,7 @@ buyBtn.disabled = true;
 var count=0;
 countItemCart.innerHTML = count;
 
+
 function buyProduct(){
     checkCart();
 }
@@ -31,8 +32,9 @@ const addToCart = () =>{
 }
 
 const subToCart = () =>{
-    buyBtn.disabled=true;
-    if(countItemCart.innerHTML===count){
+    if(countItemCart.innerHTML==='0'||countItemCart.innerHTML<'0'){
+        buyBtn.disabled=true;
+        console.log('botao desativado');
     }
     
     if(countItemCart.innerHTML>0){
