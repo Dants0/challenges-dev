@@ -20,13 +20,13 @@ countItemCart.innerHTML = count;
 
 function buyProduct(){
     checkCart();
-    checkList();
 }
 
 const checkCart = () =>{
-    if(count>0){
-        alert('Quantidade: ' + count + ' Tamanho: ' + listSize.value);
-        console.log('Quantidade: ' + count + ' Tamanho: ' + listSize.value)
+    let size = listSize.value;
+    if(count>0&&size){
+        alert('Quantidade: ' + count + ' Tamanho: ' + size);
+        console.log('Quantidade: ' + count + ' Tamanho: ' + size)
     }else{
         alert('Adicione item')
     }
@@ -45,10 +45,5 @@ const subToCart = () =>{
     }
 }
 
-const checkList = () =>{
-    listSize.value;
-}
-
-listSize.addEventListener("change", checkList);
 moreBuyBtn.addEventListener('click', addToCart);
 minusBuyBtn.addEventListener('click', subToCart);
