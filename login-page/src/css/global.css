@@ -1,0 +1,125 @@
+@import "//netdna.bootstrapcdn.com/font-awesome/3.0/css/font-awesome.css";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --bg-login: rgb(83, 83, 223);
+}
+
+section{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    margin: 15px;
+    font-family: FontAwesome;
+    align-items: center;
+}
+
+input::placeholder{
+    color: white;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8em;
+}
+
+span{
+    color: #ffff;
+}
+
+a{
+    display: flex;
+    justify-content: center;
+    color: #ffff;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+    box-shadow: inset 0px 0px 0px 1px #ffff;
+}
+
+.svgTitle{
+    width: 65%;
+    height: 65%;
+}
+
+.formValidated{
+    margin-top: 5em;
+}
+
+.container{
+    display: flex;
+}
+
+.box-1{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--bg-login);
+    width: 50vw auto;
+    height: 61rem;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+.inputsForm{
+    border: 2.5px solid white;
+    outline: none;
+    width: 20rem;
+    height: 3rem;
+    padding: 16px;
+    border-radius: 25px;
+    background-color: var(--bg-login);
+    font-size: 25px;
+    color: #fff;
+}
+
+.inputsForm:hover{
+    transition: .2s all ease;
+    box-shadow: 0 0 1em white;
+}
+
+.inputsFormBtn{
+    border:none;
+    border-radius: 25px;
+    width: 20rem;
+    height: 3.5rem;
+    padding: 16px;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    align-items: center;
+}
+
+.inputsFormBtn:hover{
+    transition: .2s all ease;
+    box-shadow: 0 0 1em white;
+}
+
+.footerBox{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10em;
+    font-family: 'Poppins', sans-serif;
+}
+
+.box-2{
+    display: flex;
+    align-items: center;
+}
