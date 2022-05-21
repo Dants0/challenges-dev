@@ -7,7 +7,7 @@
   <title>Grab Login</title>
   <link rel="stylesheet" href="./src/css/global.css">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
-  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
 </head>
 <body>
 
@@ -15,12 +15,16 @@
     <div class="box-1">
       <section>
         <h1><img src="./assets/logo-grab.svg" alt="Logo-Grab-Title" class="svgTitle"></h1>
-          <form class="formValidated">
+          <form action="" class="formValidated">
             <label for="">
-              <input type="email" id="emailInput" placeholder="&#x40" class="inputsForm">
+              <input type="email" id="emailInput" placeholder="&#x40" class="inputsForm" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
             </label>
             <label for="">
-              <input type="password" placeholder="&#61475" id="passwordInput" class="inputsForm">
+              <input type="password" placeholder="&#61475" id="passwordInput" class="inputsForm" required>
+              <i class="bi bi-eye-slash" id="togglePassword"></i>
+            </label>
+            <label for="">
+              <input type="password" placeholder="&#61475" id="passwordInputConfirm" class="inputsForm" required>
             </label>
             <label for="">
               <input type="submit" value="Enviar" id="sendButton" class="inputsFormBtn">
@@ -29,7 +33,7 @@
     
           <div class="footerBox">
             <span>problemas para entrar?</span>
-            <a href="">clique aqui</a>
+            <a href="./src/pages/redefinePage.html">clique aqui</a>
           </div>
       </section>
     </div>

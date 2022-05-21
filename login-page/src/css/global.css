@@ -36,7 +36,7 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 8em;
+    margin-top: 7em;
 }
 
 span{
@@ -73,7 +73,7 @@ a:hover{
     flex-direction: column;
     background-color: var(--bg-login);
     width: 50vw auto;
-    height: 61rem;
+    height: 62rem;
     border-top-left-radius: 25px;
     border-bottom-left-radius: 25px;
 }
@@ -122,4 +122,9 @@ a:hover{
 .box-2{
     display: flex;
     align-items: center;
+}
+
+#togglePassword{
+    cursor: pointer;
+    color: #ffff;
 }
