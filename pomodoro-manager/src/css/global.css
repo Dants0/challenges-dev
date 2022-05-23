@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--bg-color)
+}
+
+:root{
+    --bg-color: #333853;
+    --bg-color-works: #424a75;
+    --bg-color-btn: #707bb9;
+    --work-color-button: #219653;
+    --others:#F2C94C;
+}
+
+h1{
+    color: rgba(255, 255, 255, 0.658);
+    text-align: center;
+    margin: 100px auto;
+}
+
+span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 45px;
+    color: rgba(255, 255, 255, 0.658);
+}
+
+p{
+    display: flex;
+    color: rgba(255, 255, 255, 0.658);
+}
+
+button{
+    display: flex;
+    justify-content: center;
+    border-radius: 25px;
+    border: none;
+    width: 25px;
+    height: 25px;
+    font-size: 17px;
+    font-weight: bold;
+    margin: 12px;
+    color: rgba(255, 255, 255, 0.658);;
+    text-align: center;
+    cursor: pointer;
+    background-color: var(--bg-color-btn)
+}
+
+button:hover{
+    background-color: #707bb9cc;
+}
+
+input[type="button"] {
+    font-size:25px;
+    font-weight: bold;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    width: 98vw;
+}
+
+.work-1{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content:center;
+    width: 15rem;
+    height: 10rem;
+    /* border-radius: 5px; */
+    /* box-shadow:2px 2px 15px 2px rgba(255, 255, 255, 0.658) */
+}
+
+.arrows{
+    display: block;
+    margin-right: 5px;
+    margin-bottom: 25px;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    border-radius: 2px;
+    width: 8rem;
+    height: 6rem;
+    padding: 1.5rem;
+    background-color: var(--bg-color-works)
+}
+
+.desc{
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    width: 100px;
+}
+
+.btnContinue{
+    display: flex;
+    justify-content:center;
+    margin-top: 50px;
+}
+
+.btn{
+    border: 1px solid #80808041;
+    cursor: pointer;
+    width: 12.5rem;
+    height: 3rem;
+    padding: 10px;
+    background-color: var(--bg-color-works);
+    border-radius: 2.5px;
+    box-shadow: 2px 1px 5px 1px #424a75;
+    color: rgba(255, 255, 255, 0.658);
+}
+
+.btn:hover{
+    transition: .2s all ease-in; 
+    background-color: #707bb9dc;
+}
