@@ -1,14 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./src/css/global.css">
+    <title>Pomodoro Timer</title>
+    <link rel="stylesheet" href="./src/css/page2.css">
 </head>
 <body>
-    <h1>Time Start</h1>
+    <header class="top">
+        <h1>Pomodoro</h1>
+        <a href="index.html"><button class="return">Início</button></a>
+    </header>
+
+    <section>
+        <div class="container">
+            <div class="sphere">
+                <div class="content">
+                    <span id="numCounterWorks">25:00</span>
+                </div>
+            </div>
+            
+            <div class="box">
+                <h2>Trabalho</h2>
+                <button class="play">Play</button>
+            </div>
+        </div>
+    </section>
     <script src="./src/js/app.js"></script>
 </body>
 </html>

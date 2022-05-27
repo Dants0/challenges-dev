@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --bg-color: #333853;
+    --bg-color-works: #424a75;
+    --bg-color-btn: #707bb9;
+    --work-color-button: #219653;
+    --others:#F2C94C;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--bg-color)
+}
+
+h1{
+    color: rgba(255, 255, 255, 0.658);
+}
+
+h2{
+    color: rgba(0, 255, 0, 0.603);
+    font-size: 5rem;
+    /* margin: 2rem; */
+}
+
+header{
+    margin: 2.5rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+section{
+    margin: 15.5rem;
+}
+
+span{
+    font-size: 5rem;
+    color: rgba(255, 255, 255, 0.658);
+}
+
+.top{
+    display: flex;
+    justify-content: space-around;
+}
+
+.return{
+    display: flex;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.658);
+    background-color: var(--bg-color-works);
+    width: 6rem;
+    height: 2.75rem;
+    padding: 1.25rem;
+    justify-content: center;
+    border-radius: 5px;
+    border: none;
+    font-size: 18px;
+    box-shadow: 0px 1px 1px 1px rgba(8, 7, 7, 0.986);
+    cursor: pointer;
+
+}
+
+.return:hover{
+    background-color: #707bb9cc;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.sphere{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 25rem;
+    height: 25rem;
+    background-color: var(--bg-color-works)
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 7px solid rgba(0, 255, 0, 0.603);
+    background-color: var(--bg-color-works);
+    width: 20.25rem;
+    height: 20.25rem;
+    border-radius: 50%;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+}
+
+.play{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bg-color-works);
+    border: none;
+    width: 10rem;
+    height: 2rem;
+    cursor: pointer;
+    box-shadow: 0px 1px 3px 1px rgba(150, 150, 150, 0.986);
+    margin-left: 25%;
+    margin-top: 10%;
+}
+
+.play:hover{
+    background-color: #707bb9cc;
+}

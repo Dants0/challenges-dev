@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pomodoro Method</title>
-    <link rel="stylesheet" href="./src/css/global.css">
+    <link rel="stylesheet" href="./src/css/styles.css">
 </head>
 <body>
     <h1>Pomodoro</h1>
@@ -13,12 +13,12 @@
     <div class="container">
         <div class="work-1">
             <div class="arrows">
-                <button>&#8593;</button>
-                <button>&#8595;</button>
+                <button id="Add">&#8593;</button>
+                <button id="Sub">&#8595;</button>
             </div>
             <div class="wrapper">
                 <div class="box">
-                    <span>25</span>
+                    <span id="numCounterWorks"></span>
                 </div>
                 <div class="desc">
                     <p>Trabalho</p>
@@ -27,12 +27,12 @@
         </div>
         <div class="work-1">
             <div class="arrows">
-                <button>&#8593;</button>
-                <button>&#8595;</button>
+                <button id="Add2">&#8593;</button>
+                <button id="Sub2">&#8595;</button>
             </div>
             <div class="wrapper">
                 <div class="box">
-                    <span>5</span>
+                    <span id="numCounterPause"></span>
                 </div>
                 <div class="desc">
                     <p>Pausas</p>
@@ -41,12 +41,12 @@
         </div>
         <div class="work-1">
             <div class="arrows">
-                <button>&#8593;</button>
-                <button>&#8595;</button>
+                <button id="Add3">&#8593;</button>
+                <button id="Sub3">&#8595;</button>
             </div>
             <div class="wrapper">
                 <div class="box">
-                    <span>3</span>
+                    <span id="numCounterSections"></span>
                 </div>
                 <div class="desc">
                     <p>Sessões</p>
@@ -56,7 +56,7 @@
     </div>
 
     <div class="btnContinue">
-        <a href="startPomodoro.html"><input type="button" value="Continuar" class="btn"></a>
+        <a href="startPomodoro.html"><input type="button" value="Continuar" class="btn" id="btnContinue"></a>
     </div>
 
 
