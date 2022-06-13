@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root{
+    --bg-green-card: #21EB00;
+    --bg-green-card-hover: #21EB00cc;
+    --bg-gray-card: #191A18;
+    --bg-body: #000;
+    --text: #d8d8d5ee;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: var(--bg-body);
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    color: var(--bg-green-card);
+    font-size: 2rem;
+    margin-bottom: 1.25rem;
+}
+
+h3{
+    font-size: 1.25rem;
+    font-weight: normal;
+    color: var(--text);
+    margin-bottom: 1.125rem;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50rem;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 25rem;
+    height: 25rem;
+    box-shadow: 1px 0px 2px 4px #ffffff5e;
+    border-radius: 10px;
+}
+
+#timer{
+    background-color: var(--bg-gray-card);
+    border:none;
+    padding: 1rem;
+    width: 16rem;
+    border-radius: 19px;
+    color: var(--text);
+    text-transform: uppercase;
+    margin-bottom: 1.25rem;
+}
+
+#timer:focus{
+    outline: 1px solid #f1f1f1;
+}
+
+#startTimer{
+    background-color: var(--bg-green-card);
+    padding: 0.75rem;
+    width: 16rem;
+    font-weight: bold;
+    font-size: 1.125rem;
+    border-radius: 19px;
+    cursor: pointer;
+    display: flex;
+    justify-content:center;
+}
+
+#startTimer:hover{
+    /* background-color: var(--bg-green-card-hover); */
+    transition: ease-in-out .5s;
+    filter: brightness(75%);
+}
