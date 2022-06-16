@@ -1,0 +1,342 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Sora&display=swap');
+
+:root {
+    --color-green: #6CE4B9;
+    --color-yellow: #FCD87B;
+    --color-white: #FFFFFF;
+    --color-purple: #6F3AFA;
+    --color-dark: #031432;
+    --bg-section-info: #E2EDFF;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 85rem;
+    margin: 3.688rem 10.313rem 0 9.313rem;
+}
+
+.content-header {
+    display: flex;
+}
+
+.nav-content {
+    display: flex;
+    margin-right: 2.438rem;
+}
+
+ul {
+    margin-right: 1.438rem;
+}
+
+h1 {
+    background: linear-gradient(110.29deg, #6ce4b9 100%, #6F3AFA 50%, #FFC107 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-family: 'Sora', sans-serif;
+    font-weight: bold;
+    font-size: 2.975rem;
+}
+
+i[class="ph-first-aid"] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    width: 24px;
+    height: 24px;
+    background-color: gray;
+    background: linear-gradient(96.14deg, #6CE4B9 -10.84%, #6F3AFA 196.74%);
+    ;
+    border-radius: 15px;
+}
+
+i[class="ph-star"] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 24px;
+    color: #fff;
+    height: 24px;
+    border-radius: 15px;
+}
+
+i[class="ph-pill"] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    font-size: 3rem;
+    color: #fff;
+    background-color: gray;
+    background: linear-gradient(96.14deg, #6CE4B9 -10.84%, #6F3AFA 196.74%);
+    border-radius: 15px;
+}
+i[class="ph-heartbeat"] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    font-size: 3rem;
+    background-color: gray;
+    background: linear-gradient(96.14deg, #6CE4B9 -10.84%, #6F3AFA 196.74%);
+    border-radius: 15px;
+}
+i[class="ph-syringe"] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    color: #fff;
+    font-size: 3rem;
+    background-color: gray;
+    background: linear-gradient(96.14deg, #6CE4B9 -10.84%, #6F3AFA 196.74%);
+    ;
+    border-radius: 15px;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Sora', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: #6C87AE;
+    font-size: 1.5rem;
+}
+
+a:hover {
+    filter: brightness(55%);
+}
+
+a[class="inicioNav"] {
+    color: #3A8EF6;
+}
+
+.container-body-top {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+    height: 45rem;
+    margin: 3.688rem 10.313rem 0 9.313rem;
+}
+
+.box-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    width: 41.625rem;
+    height: 19rem;
+}
+
+h2 {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(117.98deg, #6CE4B9 -1.76%, rgba(111, 58, 250, 0.5) 39.7%, #FFC107 83.87%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+p {
+    font-family: 'Sora', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+p[class^="desc-1"] {
+    margin-top: 1rem;
+    color: #6C87AE;
+    font-family: 'Sora', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+    margin-top: 2.5rem;
+    width: 282px;
+    height: 56px;
+    font-family: 'Sora', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    color: var(--color-white);
+    cursor: pointer;
+    background: linear-gradient(96.14deg, #3A8EF6 -10.84%, #6F3AFA 196.74%);
+    box-shadow: 0px 8px 23px rgba(65, 132, 247, 0.24);
+    border: none;
+}
+
+button:hover {
+    background: linear-gradient(96.14deg, #3A8EF6cc -10.84%, #6F3AFA 196.74%);
+    box-shadow: 0px 8px 23px rgba(65, 132, 247, 0.24);
+    transition: 0.1s all ease-in-out;
+}
+
+img[class^="stethoscopeICON"] {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+}
+
+img[class^="iconMedic"] {
+    width: 50rem;
+    height: 60rem;
+}
+
+.box-2 {
+    display: flex;
+    align-items: start;
+    height: 25rem;
+    flex-direction: column;
+}
+
+.middle-content {
+    width: auto;
+    height: 16.188rem;
+    background-color: var(--bg-section-info);
+    margin-top: 6.188rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.middle {
+    margin-top: 2.3rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+ul[class^="box-middle"] {
+    margin-right: 2rem;
+    margin-left: 2rem;
+}
+
+h3 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    color: #031432;
+    opacity: 0.8;
+}
+
+.infoPage {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin: 8rem 10.313rem 0 9.313rem;
+    width: 30.313rem;
+    height: 3rem;
+}
+
+.info-span {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+}
+
+.container-body-middle {
+    display: flex;
+    width: auto;
+    justify-content: space-between;
+    margin: 8rem 10.313rem 0 9.313rem;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    width: auto;
+}
+
+.card-info {
+    padding: 1.5rem;
+    display: flex;
+    border-radius: 24px;
+    justify-content: center;
+    height: auto;
+    box-shadow: 1px 1px 4px 3px gray;
+}
+
+.desc-card {
+    font-family: 'Sora', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #6C87AE;
+}
+
+h4 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    margin: 1rem 0 1rem 0;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    width: 50vh;
+}
+
+
+ul[class^="card-info"] {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+section[class^="third"] {
+    margin-top: 6rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+p[class^="descThirdSection"] {
+    font-family: 'Sora', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #6C87AE;
+}
+
+button[class^="btnSection"]{
+    padding: 16px 28px;
+    width: 27.688rem;
+    height: 3.5rem;
+}
