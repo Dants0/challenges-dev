@@ -11,6 +11,7 @@ let word, maxGuesses, incorrectLetters = [], correctLetters = [];
 const randomWord = () =>{
     let ranItem = wordList[Math.floor(Math.random() * wordList.length)];
     word = ranItem.word
+    console.log(word)
     maxGuesses = word.length >= 5 ? 8 : 6
     correctLetters = [];
     incorrectLetters = [];
@@ -66,4 +67,3 @@ inputs.addEventListener("click", ()=>typing.focus())
 document.addEventListener("keydown", ()=>typing.focus())
 
 
-console.log(word)

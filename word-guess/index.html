@@ -11,17 +11,19 @@
 
 <body>
     <div class="container">
-        <h1>Adivinhe a palavra</h1>
-        <div class="box">
-            <input type="text" maxlength="1" class="inputLetter">
+        <div class="wrapper">
+            <h1>Adivinhe a palavra</h1>
+            <div class="box">
+                <input type="text" maxlength="1" class="inputLetter">
+                <div class="inputs"></div>
+            </div>
+            <div class="details">
+                <p class="hint">Dica: <span></span></p>
+                <p class="left">Tentativas restantes: <span></span></p>
+                <p class="wrong">Palavras erradas: <span></span></p>
+                <button class="btn-reset">Recomeçar</button>
+            </div>
         </div>
-        <div class="inputs"></div>
-        <div class="details">
-            <p class="hint">Dica: <span></span></p>
-            <p class="left">Tentativas restantes: <span></span></p>
-            <p class="wrong">Palavras erradas: <span></span></p>
-        </div>
-        <button class="btn-reset">Recomeçar</button>
     </div>
 
 
