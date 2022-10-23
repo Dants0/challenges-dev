@@ -16,6 +16,7 @@ subBtn2.addEventListener("click", pressBtnSubPause, false);
 addBtn3.addEventListener("click", pressBtnAddSections, false);
 subBtn3.addEventListener("click", pressBtnSubSections, false);
 
+
 continueBtn.disabled = true;
 
 
