@@ -1,47 +1,43 @@
 const wordList = [
     {
         word: "python",
-        hint: "programming language"
+        hint: "linguagem de programação"
     },
     {
         word: "guitar",
-        hint: "a musical instrument"
-    },
-    {
-        word: "aim",
-        hint: "a purpose or intention"
+        hint: "instrumento musical"
     },
     {
         word: "venus",
-        hint: "planet of our solar system"
+        hint: "planeta do sistema solar"
     },
     {
         word: "gold",
-        hint: "a yellow precious metal"
+        hint: "precioso metal amarelo"
     },
     {
         word: "ebay",
-        hint: "online shopping site"
+        hint: "loja online"
     },
     {
         word: "golang",
-        hint: "programming language"
+        hint: "linguagem de programação"
     },
     {
-        word: "coding",
-        hint: "related to programming"
+        word: "scrum",
+        hint: "metodologia agil"
     },
     {
         word: "matrix",
-        hint: "science fiction movie"
+        hint: "filme de ficção cientifica"
     },
     {
-        word: "bugs",
-        hint: "related to programming"
+        word: "soccer",
+        hint: "esporte"
     },
     {
         word: "avatar",
-        hint: "epic science fiction film"
+        hint: "filme de ficção cientifica"
     },
     {
         word: "gif",
@@ -117,11 +113,11 @@ const wordList = [
     },
     {
         word: "flute",
-        hint: "a musical instrument"
+        hint: "flauta musical"
     },
     {
-        word: "crypto",
-        hint: "related to cryptocurrency"
+        word: "bitcoin",
+        hint: "moeda digital"
     },
     {
         word: "tesla",
