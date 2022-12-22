@@ -64,7 +64,7 @@ const wordList = [
         hint: "related to an indoor game"
     },
     {
-        word: "viber",
+        word: "twitter",
         hint: "a social media app"
     },
     {
