@@ -4,7 +4,7 @@ const wordList = [
         hint: "linguagem de programação"
     },
     {
-        word: "guitar",
+        word: "guitarra",
         hint: "instrumento musical"
     },
     {
@@ -12,11 +12,11 @@ const wordList = [
         hint: "planeta do sistema solar"
     },
     {
-        word: "gold",
+        word: "ouro",
         hint: "precioso metal amarelo"
     },
     {
-        word: "ebay",
+        word: "amazon",
         hint: "loja online"
     },
     {
@@ -32,7 +32,7 @@ const wordList = [
         hint: "filme de ficção cientifica"
     },
     {
-        word: "soccer",
+        word: "futebol",
         hint: "esporte"
     },
     {
@@ -44,151 +44,103 @@ const wordList = [
         hint: "a file format for image"
     },
     {
-        word: "mental",
-        hint: "related to the mind"
+        word: "bk",
+        hint: "multinacional alimenticia"
     },
     {
-        word: "map",
-        hint: "diagram represent of an area"
+        word: "soma",
+        hint: "operação matemática"
     },
     {
         word: "island",
         hint: "land surrounded by water"
     },
     {
-        word: "hockey",
-        hint: "a famous outdoor game"
+        word: "sherlock",
+        hint: "investigador famoso"
     },
     {
-        word: "chess",
-        hint: "related to an indoor game"
+        word: "xadrez",
+        hint: "famoso jogo de tabuleiro"
     },
     {
         word: "twitter",
-        hint: "a social media app"
+        hint: "social midia"
     },
     {
         word: "github",
-        hint: "code hosting platform"
+        hint: "plataforma de código"
     },
     {
         word: "png",
-        hint: "a image file format"
+        hint: "formato de imagem"
     },
     {
-        word: "silver",
-        hint: "precious greyish-white metal"
+        word: "prata",
+        hint: "metal precioso"
     },
     {
         word: "mobile",
-        hint: "an electronic device"
+        hint: "dispositivo eletronico"
     },
     {
         word: "gpu",
-        hint: "computer component"
+        hint: "componente do computador"
     },
     {
         word: "java",
-        hint: "programming language"
+        hint: "linguagem de programação"
     },
     {
         word: "google",
-        hint: "famous search engine"
+        hint: "ferramenta de pesquisa famosa"
     },
     {
-        word: "venice",
-        hint: "famous city of waters"
+        word: "veneza",
+        hint: "cidade das águas"
     },
     {
         word: "excel",
-        hint: "microsoft product for windows"
+        hint: "software da microsoft"
     },
     {
         word: "mysql",
-        hint: "a relational database system"
+        hint: "banco de dados relacional"
     },
     {
-        word: "nepal",
-        hint: "developing country name"
-    },
-    {
-        word: "flute",
-        hint: "flauta musical"
+        word: "flauta",
+        hint: "instrumento musical"
     },
     {
         word: "bitcoin",
         hint: "moeda digital"
     },
     {
-        word: "tesla",
-        hint: "unit of magnetic flux density"
-    },
-    {
-        word: "mars",
-        hint: "planet of our solar system"
-    },
-    {
-        word: "proxy",
-        hint: "related to server application"
+        word: "marte",
+        hint: "planeta do nosso sistema solar"
     },
     {
         word: "email",
-        hint: "related to exchanging message"
+        hint: "serviço de troca de mensagem"
     },
     {
         word: "html",
-        hint: "markup language for the web"
-    },
-    {
-        word: "air",
-        hint: "related to a gas"
-    },
-    {
-        word: "idea",
-        hint: "a thought or suggestion"
-    },
-    {
-        word: "server",
-        hint: "related to computer or system"
+        hint: "linguagem de marcação"
     },
     {
         word: "svg",
-        hint: "a vector image format"
+        hint: "formato de vetor imagem"
     },
     {
         word: "jpeg",
-        hint: "a image file format"
-    },
-    {
-        word: "search",
-        hint: "act to find something"
-    },
-    {
-        word: "key",
-        hint: "small piece of metal"
-    },
-    {
-        word: "egypt",
-        hint: "a country name"
+        hint: "formato de imagem"
     },
     {
         word: "joker",
-        hint: "psychological thriller film"
+        hint: "filme psicologico"
     },
     {
-        word: "dubai",
-        hint: "developed country name"
-    },
-    {
-        word: "photo",
-        hint: "representation of person or scene"
-    },
-    {
-        word: "nile",
-        hint: "largest river in the world"
-    },
-    {
-        word: "rain",
-        hint: "related to a water"
+        word: "nilo",
+        hint: "maior rio do mundo"
     },
 ]
