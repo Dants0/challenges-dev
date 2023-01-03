@@ -1,9 +1,11 @@
 const cards = document.querySelectorAll(".card"),
 timeTag = document.querySelector(".time b"),
 flipsTag = document.querySelector(".flips b"),
-refreshBtn = document.querySelector(".details button");
+refreshBtn = document.querySelector(".details button"),
+messageTimeout = document.querySelector(".message");
 
-let maxTime = 25;
+
+let maxTime = 5;
 let timeLeft = maxTime;
 let flips = 0;
 let matchedCards = 0;
@@ -18,6 +20,7 @@ function initTimer (){
     }
     timeLeft--;
     timeTag.innerText = timeLeft;
+    timeIsOver(timeLeft)
 }
 
 
@@ -52,7 +55,6 @@ function matchCards(icon_1, icon_2){
         cardOne = cardTwo = "";
         return disableDeck = false;
     }
-
     setTimeout(()=>{
         cardOne.classList.add("shake");
         cardTwo.classList.add("shake");
@@ -64,6 +66,7 @@ function matchCards(icon_1, icon_2){
         cardOne = cardTwo = "";
         disableDeck = false;
     }, 1200);
+
 }
 
 
@@ -74,6 +77,7 @@ function shuffleCards(){
     clearInterval(timer);
     timeTag.innerText = timeLeft;
     flipsTag.innerText = flips;
+    messageTimeout.innerHTML = ' '
     disableDeck = isPlaying = false;
 
     let arr = ["bxl-tiktok", "bxl-instagram-alt", "bxl-facebook-circle", "bxl-twitter", "bxl-whatsapp", "bxl-youtube", "bxl-tiktok", "bxl-instagram-alt", "bxl-facebook-circle", "bxl-twitter", "bxl-whatsapp", "bxl-youtube"];
@@ -88,6 +92,13 @@ function shuffleCards(){
         card.addEventListener("click", flipCard);
     });
 
+}
+
+function timeIsOver(timer){
+    if(timer==0){
+        messageTimeout.innerText = "Time is over"
+        return console.log("Timer is over")
+    }
 }
 
 shuffleCards()

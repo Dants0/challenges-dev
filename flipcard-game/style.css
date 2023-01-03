@@ -15,6 +15,7 @@ body{
     min-width: 100vh;
     background: #673AB7;
     height: 100vh;
+    
 }
 
 p{
@@ -33,13 +34,15 @@ ul{
 .container{
     display: flex;
     align-items: center;
+    flex-direction: column;
     justify-content: center;
-    padding: 1.563rem;
+    padding: 1.5rem;
     background: #f8f8f8;
     border-radius: 10px;
     box-shadow: 0 10px 30px rgba(0,0,0,0.1);
-    height: 50%;
-    width: 35rem;
+    height: 45rem;
+    gap: 2rem;
+    width: 50rem;
 }
 
 .cards, .card, .view, .details{
@@ -121,14 +124,16 @@ ul{
 
 .details{
     width: 100%;
-    margin-top: 15px;
+    margin-top: 5rem;
     padding: 0 20px;
     background: #fff;
     border-radius: 7px;
-    height: calc(100%/4 - 30px);
+    height: calc(100%/6 - 30px);
     justify-content: space-between;
     background-color: #bbb5b580;
     color: #fff;
+    display: flex;
+    flex-basis: 4rem;
 }
 
 .details p{
@@ -136,7 +141,7 @@ ul{
     font-weight: bold;
     height: 17px;
     padding-right: 18px;
-    border-right: 1px solid #ccc;
+    border-right: 1px solid rgb(255, 255, 255);
 }
 
 .details p span{
@@ -161,6 +166,10 @@ ul{
 .details button:hover{
     color: #fff;
     background: #673AB7;
+}
+
+.message{
+    transition: 0.4s all ease-in-out;
 }
 
 ::selection{
